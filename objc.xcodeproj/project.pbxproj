@@ -21,13 +21,24 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		1075D26022AFA7610010066B /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1075D25F22AFA7610010066B /* main.mm */; };
+		1075D28822B0B5C30010066B /* ClassMetaInfo+SearchExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 1075D28722B0B5C30010066B /* ClassMetaInfo+SearchExtend.m */; };
+		108A98F8229433BD0050A4B3 /* ClassMetaInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 108A98F6229433BD0050A4B3 /* ClassMetaInfo.m */; };
+		108A99D62297D8B60050A4B3 /* GLTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = 108A99D02297D8B50050A4B3 /* GLTexture.m */; };
+		108A99D82297D8B60050A4B3 /* GLiveMiniMempool.mm in Sources */ = {isa = PBXBuildFile; fileRef = 108A99D42297D8B60050A4B3 /* GLiveMiniMempool.mm */; };
+		108A99DB2297DA330050A4B3 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 108A99DA2297DA330050A4B3 /* OpenGL.framework */; };
+		10AA45D622C2550E001F5838 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 10AA45D522C2550E001F5838 /* fishhook.c */; };
+		10AA45E522C34D8F001F5838 /* Hooker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10AA45E422C34D8F001F5838 /* Hooker.cpp */; };
+		10AA45EB22C35143001F5838 /* hde64.c in Sources */ = {isa = PBXBuildFile; fileRef = 10AA45EA22C35143001F5838 /* hde64.c */; };
+		10AA45EE22C351A3001F5838 /* Debug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10AA45ED22C351A3001F5838 /* Debug.cpp */; };
+		10AA45F222C35CF9001F5838 /* MachMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10AA45F022C35CF9001F5838 /* MachMessage.cpp */; };
+		10AA45F322C35CF9001F5838 /* MachMemory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10AA45F122C35CF9001F5838 /* MachMemory.cpp */; };
 		393CEAC00DC69E3E000B69DE /* objc-references.mm in Sources */ = {isa = PBXBuildFile; fileRef = 393CEABF0DC69E3E000B69DE /* objc-references.mm */; };
 		393CEAC60DC69E67000B69DE /* objc-references.h in Headers */ = {isa = PBXBuildFile; fileRef = 393CEAC50DC69E67000B69DE /* objc-references.h */; };
 		39ABD72312F0B61800D1054C /* objc-weak.h in Headers */ = {isa = PBXBuildFile; fileRef = 39ABD71F12F0B61800D1054C /* objc-weak.h */; };
 		39ABD72412F0B61800D1054C /* objc-weak.mm in Sources */ = {isa = PBXBuildFile; fileRef = 39ABD72012F0B61800D1054C /* objc-weak.mm */; };
 		5228CE7921C684D30001A999 /* _simple.h in Headers */ = {isa = PBXBuildFile; fileRef = 5228CE7821C684D30001A999 /* _simple.h */; };
 		5246421121C68926000909D5 /* isa.h in Headers */ = {isa = PBXBuildFile; fileRef = 5246421021C68926000909D5 /* isa.h */; };
-		5255259B21C68E3C00072CE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5255259A21C68E3C00072CE6 /* main.m */; };
 		52B8691521C67D7800192B32 /* CrashReporterClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 52B8691421C67D7800192B32 /* CrashReporterClient.h */; };
 		52B8691721C67E9300192B32 /* Block_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 52B8691621C67E9300192B32 /* Block_private.h */; };
 		52B8691921C67F5500192B32 /* objc-shared-cache.h in Headers */ = {isa = PBXBuildFile; fileRef = 52B8691821C67F5500192B32 /* objc-shared-cache.h */; };
@@ -161,6 +172,29 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1075D25F22AFA7610010066B /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		1075D28622B0B5C30010066B /* ClassMetaInfo+SearchExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ClassMetaInfo+SearchExtend.h"; sourceTree = "<group>"; };
+		1075D28722B0B5C30010066B /* ClassMetaInfo+SearchExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ClassMetaInfo+SearchExtend.m"; sourceTree = "<group>"; };
+		108A98F6229433BD0050A4B3 /* ClassMetaInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassMetaInfo.m; sourceTree = "<group>"; };
+		108A98F7229433BD0050A4B3 /* ClassMetaInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassMetaInfo.h; sourceTree = "<group>"; };
+		108A99CD2297D8B50050A4B3 /* GLiveAVExternalEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLiveAVExternalEnum.h; sourceTree = "<group>"; };
+		108A99CF2297D8B50050A4B3 /* GLTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTexture.h; sourceTree = "<group>"; };
+		108A99D02297D8B50050A4B3 /* GLTexture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLTexture.m; sourceTree = "<group>"; };
+		108A99D32297D8B60050A4B3 /* GLiveMiniMempool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLiveMiniMempool.h; sourceTree = "<group>"; };
+		108A99D42297D8B60050A4B3 /* GLiveMiniMempool.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLiveMiniMempool.mm; sourceTree = "<group>"; };
+		108A99DA2297DA330050A4B3 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		10AA45D422C2550E001F5838 /* fishhook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
+		10AA45D522C2550E001F5838 /* fishhook.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fishhook.c; sourceTree = "<group>"; };
+		10AA45E322C34D7B001F5838 /* CydiaSubstrate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CydiaSubstrate.h; sourceTree = "<group>"; };
+		10AA45E422C34D8F001F5838 /* Hooker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Hooker.cpp; sourceTree = "<group>"; };
+		10AA45E822C35143001F5838 /* hde64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hde64.h; sourceTree = "<group>"; };
+		10AA45E922C35143001F5838 /* table64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = table64.h; sourceTree = "<group>"; };
+		10AA45EA22C35143001F5838 /* hde64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hde64.c; sourceTree = "<group>"; };
+		10AA45EC22C351A3001F5838 /* Debug.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Debug.hpp; sourceTree = "<group>"; };
+		10AA45ED22C351A3001F5838 /* Debug.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Debug.cpp; sourceTree = "<group>"; };
+		10AA45EF22C35CF9001F5838 /* MachMessage.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MachMessage.hpp; sourceTree = "<group>"; };
+		10AA45F022C35CF9001F5838 /* MachMessage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MachMessage.cpp; sourceTree = "<group>"; };
+		10AA45F122C35CF9001F5838 /* MachMemory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MachMemory.cpp; sourceTree = "<group>"; };
 		393CEABF0DC69E3E000B69DE /* objc-references.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "objc-references.mm"; path = "runtime/objc-references.mm"; sourceTree = "<group>"; };
 		393CEAC50DC69E67000B69DE /* objc-references.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "objc-references.h"; path = "runtime/objc-references.h"; sourceTree = "<group>"; };
 		39ABD71F12F0B61800D1054C /* objc-weak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "objc-weak.h"; path = "runtime/objc-weak.h"; sourceTree = "<group>"; };
@@ -168,7 +202,6 @@
 		5228CE7821C684D30001A999 /* _simple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _simple.h; sourceTree = "<group>"; };
 		5246421021C68926000909D5 /* isa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = isa.h; path = runtime/isa.h; sourceTree = SOURCE_ROOT; };
 		5255259821C68E3C00072CE6 /* objc-test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "objc-test"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5255259A21C68E3C00072CE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		52B8691421C67D7800192B32 /* CrashReporterClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrashReporterClient.h; sourceTree = "<group>"; };
 		52B8691621C67E9300192B32 /* Block_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Block_private.h; sourceTree = "<group>"; };
 		52B8691821C67F5500192B32 /* objc-shared-cache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "objc-shared-cache.h"; sourceTree = "<group>"; };
@@ -278,6 +311,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				108A99DB2297DA330050A4B3 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,6 +402,23 @@
 			name = Source;
 			sourceTree = "<group>";
 		};
+		10AA45E222C34D40001F5838 /* substrate */ = {
+			isa = PBXGroup;
+			children = (
+				10AA45F122C35CF9001F5838 /* MachMemory.cpp */,
+				10AA45F022C35CF9001F5838 /* MachMessage.cpp */,
+				10AA45EF22C35CF9001F5838 /* MachMessage.hpp */,
+				10AA45ED22C351A3001F5838 /* Debug.cpp */,
+				10AA45EC22C351A3001F5838 /* Debug.hpp */,
+				10AA45EA22C35143001F5838 /* hde64.c */,
+				10AA45E822C35143001F5838 /* hde64.h */,
+				10AA45E922C35143001F5838 /* table64.h */,
+				10AA45E422C34D8F001F5838 /* Hooker.cpp */,
+				10AA45E322C34D7B001F5838 /* CydiaSubstrate.h */,
+			);
+			path = substrate;
+			sourceTree = "<group>";
+		};
 		1AB674ADFE9D54B511CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -381,7 +432,19 @@
 		5255259921C68E3C00072CE6 /* objc-test */ = {
 			isa = PBXGroup;
 			children = (
-				5255259A21C68E3C00072CE6 /* main.m */,
+				10AA45E222C34D40001F5838 /* substrate */,
+				10AA45D522C2550E001F5838 /* fishhook.c */,
+				10AA45D422C2550E001F5838 /* fishhook.h */,
+				108A99CD2297D8B50050A4B3 /* GLiveAVExternalEnum.h */,
+				108A99D32297D8B60050A4B3 /* GLiveMiniMempool.h */,
+				108A99D42297D8B60050A4B3 /* GLiveMiniMempool.mm */,
+				108A99CF2297D8B50050A4B3 /* GLTexture.h */,
+				108A99D02297D8B50050A4B3 /* GLTexture.m */,
+				1075D25F22AFA7610010066B /* main.mm */,
+				108A98F7229433BD0050A4B3 /* ClassMetaInfo.h */,
+				108A98F6229433BD0050A4B3 /* ClassMetaInfo.m */,
+				1075D28622B0B5C30010066B /* ClassMetaInfo+SearchExtend.h */,
+				1075D28722B0B5C30010066B /* ClassMetaInfo+SearchExtend.m */,
 			);
 			path = "objc-test";
 			sourceTree = "<group>";
@@ -547,6 +610,7 @@
 		F9BCC72A205C6A1600DD9AFC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				108A99DA2297DA330050A4B3 /* OpenGL.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -757,7 +821,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5255259B21C68E3C00072CE6 /* main.m in Sources */,
+				108A98F8229433BD0050A4B3 /* ClassMetaInfo.m in Sources */,
+				108A99D62297D8B60050A4B3 /* GLTexture.m in Sources */,
+				108A99D82297D8B60050A4B3 /* GLiveMiniMempool.mm in Sources */,
+				10AA45EB22C35143001F5838 /* hde64.c in Sources */,
+				1075D26022AFA7610010066B /* main.mm in Sources */,
+				10AA45EE22C351A3001F5838 /* Debug.cpp in Sources */,
+				10AA45E522C34D8F001F5838 /* Hooker.cpp in Sources */,
+				10AA45D622C2550E001F5838 /* fishhook.c in Sources */,
+				10AA45F222C35CF9001F5838 /* MachMessage.cpp in Sources */,
+				1075D28822B0B5C30010066B /* ClassMetaInfo+SearchExtend.m in Sources */,
+				10AA45F322C35CF9001F5838 /* MachMemory.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1172,6 +1246,7 @@
 				);
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				HEADER_SEARCH_PATHS = "";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -1200,6 +1275,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				HEADER_SEARCH_PATHS = "";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;

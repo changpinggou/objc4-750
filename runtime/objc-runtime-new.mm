@@ -5663,8 +5663,10 @@ BOOL class_conformsToProtocol(Class cls, Protocol *proto_gen)
     checkIsKnownClass(cls);
     
     assert(cls->isRealized());
+    //applechang test
     
-    for (const auto& proto_ref : cls->data()->protocols) {
+    protocol_array_t protocols = cls->data()->protocols;
+    for (const auto& proto_ref : protocols) {
         protocol_t *p = remapProtocol(proto_ref);
         if (p == proto || protocol_conformsToProtocol_nolock(p, proto)) {
             return YES;
